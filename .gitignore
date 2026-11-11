@@ -1,0 +1,30 @@
+
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive Terraform variables
+*.tfvars
+!terraform.tfvars.example
+
+# AWS credentials and private keys
+.aws/
+*.pem
+*.key
+credentials
+
+# Environment secrets
+.env
+.env.*
+
+# Application generated files
+node_modules/
+*.log
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
